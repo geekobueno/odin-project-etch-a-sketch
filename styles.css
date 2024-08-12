@@ -18,7 +18,8 @@ body{
 
 #pad{
     width: 800px;
-    height: 800px;
+    height: 875px;
+    border-radius: 10%;
     background-color: rgb(100, 100, 114);
     margin: auto;
     box-shadow: inset 4px 10px 10px 4px rgb(224, 198, 198),
@@ -30,7 +31,12 @@ body{
     width: 700px;
     height: 500px;
     background-color: whitesmoke;
+    border: lightgray solid;
     margin: auto;
+}
+
+#container:hover{
+    cursor: pointer;
 }
 
 .cell{
@@ -52,3 +58,24 @@ body{
     font-family: 'Hind Siliguru', sans-serif;
     font-size: large;
 }
+
+input{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#resize{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#resizeBtn {
+    background:#cece8387;
+    font-family: 'lobster' , sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+    width: 100px;
+  }

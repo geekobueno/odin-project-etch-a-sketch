@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./painting-brush-woman-svgrepo-com.svg">
     <title>Etch a sketch</title>
@@ -15,16 +16,16 @@
         <div id="container"></div>
         <div id="btnColor">
             <button id="black">Black</button>
-            <button id="black">Rainbow</button>
-            <button id="black">Eraser</button>
+            <button id="rainbow">Rainbow</button>
+            <button id="eraser">Eraser</button>
+            <button id="reset">Reset</button>
         </div>
-    </div>
-
-    <div id="resize">
-        <input id="resizeValue" type="text"
-        placeholder="Set size between 2 & 100"
-        >
-        <button id="resizeBtn">Resize</button>
+        <div id="resize">
+            <input  type="number"
+            placeholder="Set size 2-100"
+            id="resizeValue">
+            <button id="resizeBtn">Resize</button>
+        </div>
     </div>
 </body>
 </html>
